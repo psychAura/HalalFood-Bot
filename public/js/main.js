@@ -14,7 +14,7 @@ socket.on('message', message=>{
 chatForm.addEventListener('submit', event =>{
     event.preventDefault();
 //Get message text
-let msg = event.target.elements.msg.value;
+let msg = event.target.elements.msg.value; 
 
 msg = msg.trim();
 
