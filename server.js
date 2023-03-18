@@ -15,9 +15,9 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 
 const fastFoods = {
-    1: "Jollof Rice",
-    2: "Fried Rice",
-    3: "Pizza",
+    2: "Jollof Rice",
+    3: "Fried Rice",
+    4: "Pizza",
     5: "Chicken Burger",
   };
 
